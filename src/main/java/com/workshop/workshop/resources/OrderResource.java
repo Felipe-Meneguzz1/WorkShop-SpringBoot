@@ -15,7 +15,7 @@ import com.workshop.workshop.services.OrderService;
 @RestController
 @RequestMapping(value = "/orders")
 public class OrderResource {
-	
+
 	@Autowired 
 	private OrderService service;
 
