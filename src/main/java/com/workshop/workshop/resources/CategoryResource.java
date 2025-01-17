@@ -10,9 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.workshop.workshop.entities.Category;
-import com.workshop.workshop.entities.User;
 import com.workshop.workshop.services.CategoryService;
-import com.workshop.workshop.services.UserService;
 
 @RestController
 @RequestMapping(value = "/categories")
